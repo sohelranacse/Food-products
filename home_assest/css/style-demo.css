@@ -1,0 +1,237 @@
+#jcl-demo .carousel {
+    border-radius: 10px;
+    float: none;
+    left: -5000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    padding-left: 0;
+    position: relative;
+    visibility: hidden;
+    width: 1080px !important;
+}
+
+    /* Styling for image based carousel content. Only width and height are mandatory */
+    #jcl-demo .carousel>ul>li>img {
+        width: 160px;
+        height: 105px;
+        vertical-align:middle;
+
+        /* optional */
+        margin: 10px 10px 10px 0;
+        border-radius: 5px;
+    }
+
+    /* Styling for text based carousel content. Only width and height are mandatory */
+    #jcl-demo .carousel>ul>li>p {
+        width: 130px;
+        height: 98px;
+
+        margin: 10px 10px 10px 0;
+        border: 1px solid #808080;
+        border-radius: 5px;
+        line-height: normal;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+/* Styles for PREV and NEXT anchor buttons */
+#jcl-demo a.prev, #jcl-demo a.next, #jcl-demo a.go {
+    display: block;
+    width: 79px;
+    height: 79px;
+    line-height: 1;;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+
+    border-radius: 8px;
+    float: left;
+}
+/*    #jcl-demo a.prev.disabled, #jcl-demo a.next.disabled,
+    #jcl-demo a.prev.disabled:hover, #jcl-demo a.next.disabled:hover {
+        background-color: #8d8d8d;
+        cursor: default;
+    }*/
+    #jcl-demo a.go.highlight {
+        background-color: #dedede;
+        color: #000;
+    }
+    #jcl-demo a.prev {
+        margin: 30px -5px 0 -86px;
+        text-indent: 7px;
+    }
+	.next > img {
+    float: left;
+}
+#jcl-demo a.next {
+    float: right;
+    margin-bottom: 0;
+    margin-left: 1123px;
+    margin-top: -94px;
+    position: absolute;
+    text-indent: 10px;
+}
+/*.carousel li:first-child {
+    margin-right: 30px;
+}*/
+/*        #jcl-demo a.prev:hover, #jcl-demo a.next:hover, #jcl-demo a.go:hover {
+            background-color: #666666;
+        }*/
+
+/* Additional carousel styles for external controls, slider, widget, mid etc. */
+
+#jcl-demo .externalControl button,
+#jcl-demo .imageSliderExt button {
+    margin: 5px 5px 0 0;
+}
+#jcl-demo .externalControl a.next, #jcl-demo .externalControl a.prev, #jcl-demo .externalControl a.go,
+#jcl-demo .imageSliderExt a.next, #jcl-demo .imageSliderExt a.prev, #jcl-demo .imageSliderExt a.go
+{
+    margin: 0 5px 0 0;
+    padding: 7px 5px 0 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#jcl-demo .widget img {
+    cursor: pointer;
+}
+#jcl-demo .mid {
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+}
+#jcl-demo .vertical {
+    margin-left: 170px;
+}
+
+#jcl-demo .imageSlider .carousel>ul>li>img,
+#jcl-demo .imageSliderExt .carousel>ul>li>img {
+    width: 400px;
+    height: 300px;
+}
+#jcl-demo .imageSlider .carousel>ul>li>p,
+#jcl-demo .imageSliderExt .carousel>ul>li>p {
+    width: 380px;
+    height: 280px;
+}
+
+/* Other common styles */
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 1500px) {
+#jcl-demo .carousel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: 0;
+    width: 810px !important;
+    float: none;
+}
+
+#jcl-demo .carousel > ul > li > a img {
+    height: 85px;
+    width: 120px;
+}
+
+#jcl-demo a.prev {
+    height: 60px;
+    margin: 30px -5px 0 -8px;
+    position: absolute;
+    width: 55px;
+}
+#jcl-demo a.next {
+    height: 60px;
+    margin-left: 896px;
+    margin-top: -55px;
+    position: absolute;
+    width: 55px;
+}
+
+}
+@media only screen and (max-width: 1000px) {
+#jcl-demo .carousel {
+width: 495px !important;	
+}
+#jcl-demo a.next {
+margin-left: 558px;	
+}
+#jcl-demo .carousel > ul > li > a img {
+    height: 75px;
+    width: 100px;
+}	
+#jcl-demo .carousel {
+    width: 505px !important;
+}
+#jcl-demo a.next {
+    margin-left: 600px;
+    margin-top: -65px;
+}
+}
+
+@media only screen and (max-width: 750px) {
+#jcl-demo .carousel {
+    width: 365px !important;
+}
+#jcl-demo a.next {
+    margin-left: 430px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+#jcl-demo .carousel {
+    width: 220px !important;
+}
+#jcl-demo a.next {
+    height: 37px;
+    margin: -47px -5px 0 250px;
+    position: absolute;
+    width: 35px;
+	right:4%;
+}
+#jcl-demo a.prev {
+    height: 37px;
+    margin: 38px -5px 0 -20px;
+    position: absolute;
+    width: 35px;
+}
+#jcl-demo .carousel > ul > li > a img {
+    height: 65px;
+    width: 85px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+	
+#jcl-demo a.next {
+    height: 37px;
+    margin: -68px -5px 0 285px;
+    position: absolute;
+    width: 35px;
+	  right: inherit;
+}
+#jcl-demo a.prev {
+    height: 37px;
+    margin: 28px -5px 0 -20px;
+    position: absolute;
+    width: 35px;
+}
+#jcl-demo .carousel {
+    width: 160px !important;
+}
+#jcl-demo .carousel > ul > li > a img {
+    height: 75px;
+    width: 130px;
+}
+	
+}
+@media only screen and (max-width: 350px) {
+#jcl-demo a.next {
+    margin: -67px -5px 0 243px;	
+}
+}

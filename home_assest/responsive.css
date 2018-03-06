@@ -1,0 +1,96 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.column {width: 750px;}
+.slide_div {display: none;}
+.cmo {text-align: center;}
+.chairman_msg_rt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.chairman_home h3 {margin-top: 0px;}
+.vmo {padding-top: 125px; text-align: center;}
+.home-global-hdr {margin-top: -75px;}
+.home-global-map h3 {
+    margin-top: -50px;
+}
+.footer_area {
+	background-repeat: repeat;
+	height: auto;
+	padding-bottom: 40px;
+	background-image: url(./img/footer-bg1.jpg);
+}
+.pt125 {padding-top: 0px;}
+.chairman_msg_lf {height: auto;}
+.chairman_msg_rt {height: auto;}
+.chairman_home h2 {font-size: 17px;}
+.home-latest {text-align: center;}
+.home-update-box {margin-top: 20px;}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+.column {width: 300px;}
+.banner {border-top-left-radius: 60px;}
+.bg-white {display: none;}
+.footer_area {
+	background-repeat: repeat;
+	height: auto;
+	padding-bottom: 40px;
+	background-image: url(./img/footer-bg1.jpg);
+}
+.slide_div {display: none;}
+.vmo {padding-top: 125px; text-align: center;}
+.cmo {text-align: center;}
+.chairman_home h3 {margin-top: 0px;}
+.chairman_msg_rt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.chairman_msg_lf img {margin: 15px 0;}
+.chairman_msg_lf {overflow: hidden;}
+.home-global-hdr {margin-top: -75px;}
+.home-global-map h3 {margin-top: -50px;}
+.pt125 {padding-top: 0px;}
+.chairman_msg_lf {height: auto;}
+.chairman_msg_rt {height: auto;}
+.chairman_home h2 {font-size: 17px;}
+.home-latest {text-align: center;}
+.home-update-box {margin-top: 20px;}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.column {width: 450px;}
+.slide_div {display: none;}
+.cmo {text-align: center;}
+.chairman_msg_rt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.vmo {padding-top: 125px; text-align: center;}
+.home-global-hdr {margin-top: -75px;}
+.home-global-map h3 {margin-top: -50px;}
+.footer_area {
+	background-repeat: repeat;
+	height: auto;
+	padding-bottom: 40px;
+	background-image: url(./img/footer-bg1.jpg);
+}
+.pt125 {padding-top: 0px;}
+.chairman_msg_lf {height: auto;}
+.chairman_msg_rt {height: auto;}
+.chairman_home h2 {font-size: 17px;}
+.home-latest {text-align: center;}
+.home-update-box {margin-top: 20px;}
+}
